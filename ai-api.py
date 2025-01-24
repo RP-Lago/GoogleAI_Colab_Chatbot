@@ -1,7 +1,5 @@
-!pip install google-generativeai==2.0.0
-
-import google.generativeai as genai
-from google.colab import userdata
+import google.generativeai as genai # type: ignore
+from google.colab import userdata # type: ignore
 
 # 1. Obtenha sua chave de API do Google AI Studio e armazene-a no Secrets do Colab
 #    com o nome 'secretkey'.
